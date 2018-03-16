@@ -2,20 +2,71 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Forma</title>
-        <link rel="stylesheet" href="style.css">
+        <title>Title</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
-        <h1>me contacter</h1>
-        <forma action="https://server.by" method="post" name="contact">
-            <img src="images/user.png" alt="nom" class="user-icon">
-            <input type="text" name="nom" placeholder="Votre nom" class="user-name">
-            <img src="images/mail.png" alt="email" class="mail-icon">
-            <input type="email" name="email" placeholder="Votre email" class="user-email">
-            <img src="images/crayon.png" alt="message" class="message-icon">
-            <textarea name="message" rows="9" class="user-message" placeholder="Votre message"></textarea>
-            <button>envoyer</button>
-        </forma>
-        <a href="table.html" target="_blank">Таблица</a>
+    <body class="none-margin">
+        <header class="all-component1">
+            <div class="component1">
+                <div class="component1-container">
+                    <div class="component1-top">
+                        <div class="logotype">
+                            <a href="app.html">
+                                <img class="foliac-logotype" src="images/foliac-logo.png" alt="foliac logotype">
+                            </a>
+                        </div>
+                        <div class="navigation-links">
+                            <nav class="all-links">
+                                <a class="link" href="accuell.html">Accuell</a> / <a class="link" href="portfolio.html">Portfolio</a> /
+                                <a class="link" href="about.html">About</a> / <a class="link" href="contact.html">Contact</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="component1-bottom">
+                        <h1 class="portfolio">voici votre prochain portfolio</h1>
+                        <p class="template">un template psd simple et gratuit</p>
+                        <div class="button-block">
+                            <button class="works">mes travaux</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main><h2 class="name-forma">me contacter</h2>
+            <form action="https://server.by" method="post" name="contact">
+                <img src="images/user.png" alt="nom" class="user-icon">
+                <input type="text" name="nom" placeholder="Votre nom" class="user-name">
+                <img src="images/mail.png" alt="email" class="mail-icon">
+                <input type="email" name="email" placeholder="Votre email" class="user-email">
+                <img src="images/crayon.png" alt="message" class="message-icon">
+                <textarea name="message" rows="9" class="user-message" placeholder="Votre message"></textarea>
+                <input class="dispatch" type="submit" value="envoyer">
+            </form>
+        </main>
+        <footer class="all-component5">
+            <div class="component5-container">
+                <div class="creator">Copyright © 2015 by beneggen - <strong>www.beneggen.fr</strong></div>
+                <div class="navigation-networks">
+                    <nav>
+                        <a class="network" target="_blank" href="https://twitter.com/?lang=ru">
+                            <img src="images/polygon-lightblue.png">
+                            <img class="icon" src="images/twitter.png" alt="twitter">
+                        </a>
+                        <a target="_blank" class="network" href="https://www.linkedin.com/">
+                            <img src="images/polygon-blue.png">
+                            <img class="icon" src="images/linkedin.png" alt="linkedin">
+                        </a>
+                        <a target="_blank" class="network" href="https://dribbble.com/">
+                            <img src="images/polygon-rose.png">
+                            <img class="icon" src="images/dribbble.png" alt="dribbble">
+                        </a>
+                        <a target="_blank" class="network" href="https://www.behance.net/">
+                            <img src="images/polygon-blue.png">
+                            <img class="icon" src="images/behance.png" alt="behance">
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

@@ -1,0 +1,6 @@
+@import "component1.css";
+@import "component4.css";
+@import "component5.css";
+.none-margin {
+    margin: 0;
+}

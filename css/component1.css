@@ -1,0 +1,77 @@
+.all-component1 {
+    background: url("../images/computer.png") no-repeat center top;
+    background-size: cover;
+}
+.component1 {
+    height: 465px;
+    background: rgba(84,93,102,0.86);
+    position: relative;
+}
+.component1-container {
+    width: 800px;
+    height: 465px;
+    margin: auto;
+}
+.component1-top {
+    height: 25%;
+    position: relative;
+}
+.logotype {
+    float: left;
+}
+.foliac-logotype {
+    width: 120px;
+    height: 60px;
+    padding-top: 30px;
+}
+.navigation-links {
+    float: right;
+}
+.all-links {
+    margin-top: 55px;
+}
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.component1-bottom {
+    height: 70%;
+}
+.portfolio {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 35px;
+    padding-top: 65px;
+    margin-bottom: 0;
+}
+.template {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 100;
+    font-stretch: expanded;
+}
+.button-block {
+    text-align: center;
+}
+.works {
+    width: 130px;
+    height: 40px;
+    border: 3px #48bf72 solid;
+    border-radius: 5px;
+    color: #48bf72;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}

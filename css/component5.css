@@ -1,0 +1,32 @@
+.all-component5 {
+    height: 155px;
+    background-color: #3c4955;
+}
+.component5-container {
+    width: 800px;
+    height: 155px;
+    margin: auto;
+}
+.creator {
+    height: 155px;
+    float: left;
+    line-height: 155px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.navigation-networks {
+    float: right;
+    padding-top: 50px;
+}
+.network {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.icon {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
